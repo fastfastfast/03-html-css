@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+.tab{
+    width: 1500px;
+    height: 80px;
+    background:  url("https://dota2freaks.com/wp-content/uploads/sites/10/2019/06/how-many-dota-2-heroes.jpg");
+    float: left;
+}
+.active-cyan-3 input[type=text] {
+    border: 1px solid #4dd0e1;
+    box-shadow: 0 0 0 1px #4dd0e1;
+  }
+.header{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 305px ;
+    height: 700px;
+    text-align: center;
+    background: black;
+    float: left;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #ef9a9a;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+
+  section{
+    margin-left: 41px;
+    margin-top: 20px;
+    text-align: center;
+    width: 545px;
+    height: 600px;
+    background: url("https://i.pinimg.com/originals/af/5d/80/af5d80bd381d8f95becca11fd4107636.gif");
+    float: left;
+}
+
+
+.container-section{
+    width: 1500px;
+    height: 700px;
+    margin: 0 auto;
+    background: url("https://www.dream-wallpaper.com/free-wallpaper/art-wallpaper/black-background-4-wallpaper/1440x900/free-wallpaper-13.jpg");
+    opacity: 1.5;
+    overflow: hidden;
+    float: left;
+}
+aside{
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 600px ;
+    height: 500px;
+    text-align: center;
+    float: left;
+}
+.container-2{
+    margin-left: 41px;
+    margin-top: 20px;
+    text-align: center;
+    width: 545px;
+    height: 600px;
+    background: pink;
+    float: left;
+}
+
+    
+    
+     body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+        background: #050801;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+    a{
+        position: relative;
+        display: inline-block;
+        padding: 25px 30px;
+        margin: 40px 0;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        margin-right: 50px;
+       
+    }
+    a:hover{
+        background: #03e9f4;
+        color: #050801;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 200px #03e9f4;
+         -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    }
+    a:nth-child(1){
+        filter: hue-rotate(270deg);
+    }
+    a:nth-child(2){
+        filter: hue-rotate(110deg);
+    }
+    a span{
+        position: absolute;
+        display: block;
+    } 
+    a span:nth-child(1){
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg,transparent,#03e9f4);
+        animation: animate1 1s linear infinite;
+    }
+    @keyframes animate1{
+        0%{
+            left: -100%;
+        }
+        50%,100%{
+            left: 100%;
+        }
+    }
+    a span:nth-child(2){
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg,transparent,#03e9f4);
+        animation: animate2 1s linear infinite;
+        animation-delay: 0.25s;
+    }
+    @keyframes animate2{
+        0%{
+            top: -100%;
+        }
+        50%,100%{
+            top: 100%;
+        }
+    }
+    a span:nth-child(3){
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg,transparent,#03e9f4);
+        animation: animate3 1s linear infinite;
+        animation-delay: 0.50s;
+    }
+    @keyframes animate3{
+        0%{
+            right: -100%;
+        }
+        50%,100%{
+            right: 100%;
+        }
+    }
+    
+    
+    a span:nth-child(4){
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg,transparent,#03e9f4);
+        animation: animate4 1s linear infinite;
+        animation-delay: 0.75s;
+    }
+    @keyframes animate4{
+        0%{
+            bottom: -100%;
+        }
+        50%,100%{
+            bottom: 100%;
+        }
+    }
+    
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+    
+    

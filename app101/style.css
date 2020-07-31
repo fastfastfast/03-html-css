@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+    
+.clearfix{
+    clear: both;
+}
+body{
+    background-color: brown;
+    background-image: url("https://i.pinimg.com/originals/a8/f1/32/a8f1322e265541f17691286c6553fe98.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+  overflow: hidden;
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header{
+    text-align:  center;
+    width: 880px;
+    height: 150px;
+    /* background: yellow; */
+    margin: 0 auto;
+    
+}
