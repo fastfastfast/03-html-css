@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sehedule</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
@@ -13,38 +13,300 @@
     
 </head>
 <body>
-    <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-      
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: black">
+      <a class="navbar-brand" href="#" onclick="window.location.href='../index.html'">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" onclick="window.location.href='../dropdown/index.html'">History<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="window.location.href='../app101/index.html'">Register</a>
+          </li>
+          <li class="nav-item dropup">
+            <a class="nav-link dropup-toggle" href="#" id="navbarDropup" role="button" data-toggle="dropup" aria-haspopup="true" aria-expanded="false">
+              Schedule
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Comingsoon..</a>
+          </li>
+        </ul>
+    </nav>
+    <div class="row" style="top:100px">
+  
+      <!-- ----------- left margin ----------------- -->  
+      <div class="col-md-2"></div>
+  
+      <div class="col-md-10" style="margin-right: 5px;">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">8.00-8.30</th>
+              <th scope="col">8.30-9.00</th>
+              <th scope="col">9.00-9.30</th>
+              <th scope="col">9.30-10.00</th>
+              <th scope="col">10.00-10.30</th>
+              <th scope="col">10.30-11.00</th>
+              <th scope="col">11.00-11.30</th>
+              <th scope="col">11.30-12.00</th>
+              <th scope="col">12.00-12.30</th>
+              <th scope="col">12.30-13.00</th>
+              <th scope="col">13.00-13.30</th>
+              <th scope="col">13.30-14.00</th>
+              <th scope="col">14.00-14.30</th>
+              <th scope="col">14.30-15.00</th>
+              <th scope="col">15.00-15.30</th>
+              <th scope="col">15.30-16.00</th>
+              <th scope="col">16.00-16.30</th>
+              <th scope="col">16.30-17.00</th>
+              <th scope="col">17.00-17.30</th>
+              <th scope="col">17.30-18.00</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sunday</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Monday</th>
+              <th id="Seminar" style="background-color: aqua;" onclick="myFunction()"></th></th>
+              <th id="Seminar" style="background-color: aqua;" onclick="myFunction()"></th></th>
+              <th id="Seminar" style="background-color: aqua;"onclick=" myFunction()">Seminar(2)</th></th>
+              <th id="Seminar" style="background-color: aqua;"onclick="myFunction()"></th></th>
+              <th id="Seminar" style="background-color: aqua;"onclick="myFunction()"></th></th>
+              <th id="Seminar" style="background-color: aqua;"onclick="myFunction()"></th></th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Tuesday</th>
+              <td style="background-color: blueviolet;" onclick="myFunction2()"></td>
+              <td style="background-color: blueviolet;" onclick="myFunction2()">Webtech(1)</td>
+              <td style="background-color: blueviolet;" onclick="myFunction2()"></td>
+              <td style="background-color: blueviolet;" onclick="myFunction2()"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style="background-color: blueviolet;" onclick="myFunction2()"></td>
+              <td style="background-color: blueviolet;" onclick="myFunction2()">Webtech(11)</td>
+              <td style="background-color: blueviolet;" onclick="myFunction2()"></td>
+              <td style="background-color: blueviolet;" onclick="myFunction2()"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Wednesday</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style="background-color: brown;" onclick="myFunction3()"></td>
+              <td style="background-color: brown;" onclick="myFunction3()">IP(1)</td>
+              <td style="background-color: brown;" onclick="myFunction3()"></td>
+              <td></td>
+              <td style="background-color: cornflowerblue; " onclick="myFunction4()"></td>
+              <td style="background-color: cornflowerblue;" onclick="myFunction4()"></td>
+              <td style="background-color: cornflowerblue;" onclick="myFunction4()">OS(1)</td>
+              <td style="background-color: cornflowerblue;" onclick="myFunction4()"></td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()"></td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()"></td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()">SA(1)</td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()"></td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()"></td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()">SA(11)</td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()"></td>
+              <td style="background-color: darkgreen;" onclick="myFunction5()"></td>
+            </tr>
+            <tr>
+              <th scope="row">Thursday</th>
+              <td style="background-color: darkkhaki; " onclick="myFunction6()"></td>
+              <td style="background-color: darkkhaki;" onclick="myFunction6()">SE(11)</td>
+              <td style="background-color: darkkhaki;" onclick="myFunction6()"></td>
+              <td style="background-color: darkkhaki;" onclick="myFunction6()"></td>
+              <td></td>
+              <td></td>
+              <td style="background-color: darkkhaki;" onclick="myFunction6()"></td>
+              <td style="background-color: darkkhaki;" onclick="myFunction6()">SE(1)</td>
+              <td style="background-color: darkkhaki;" onclick="myFunction6()"></td>
+              <td style="background-color: darkkhaki;" onclick="myFunction6()"></td>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <th scope="row">Friday</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style="background-color: brown;" onclick="myFunction3()"></td>
+              <td style="background-color: brown;" onclick="myFunction3()">IP(1)</td>
+              <td style="background-color: brown;" onclick="myFunction3()"></td>
+              <td></td>
+              <td style="background-color: cornflowerblue;" onclick="myFunction4()"></td>
+              <td style="background-color: cornflowerblue;" onclick="myFunction4()"></td>
+              <td style="background-color: cornflowerblue;" onclick="myFunction4()">OS(1)</td>
+              <td style="background-color: cornflowerblue;" onclick="myFunction4()"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Sataurday</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()"></td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()">BUS(1)</td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()"></td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()"></td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()"></td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()">BUS(11)</td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()"></td>
+              <td style="background-color: darksalmon;" onclick="myFunction7()"></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+      <!-- ----------- right margin ---------------- -->  
+      <div class="col-md-2" aria-disabled="true" ></div>
+      <br>
+      <br>
+      <br>
+      รหัสวิชา: <input style="width:300px;" type="text" id="field1" readonly >
+      <br>
+      <br>
+      <br>
+      ชื่อวิชา: <input style="width:390px;" type="text" id="field2" readonly><br><br>
+      <br>
+      อาจารย์ผู้สอน: <input style="width:300px;" type="text" id="field3" readonly><br>
+    </div>
+  </div>
+
+  
+  
+    <script>
+    function myFunction() {
+    document.getElementById("field1").value = "01418497 sec 2";
+    
+    document.getElementById("field2").value = "Seminar";
+    
+    document.getElementById("field3").value = "อ.ชาคริต วัชโรภาส,อ.ศิริกร จันทร์นวล";
+    }
+    function myFunction2(){
+      document.getElementById("field1").value = "01418442 sec1,11";
+    
+    document.getElementById("field2").value = "Web Technology and Web Services";
+    
+    document.getElementById("field3").value = "อ.สุขุมาล กิติสิน";
+    }
+    function myFunction3(){
+      document.getElementById("field1").value = "01418341 sec1";
+    
+    document.getElementById("field2").value = "Intellectual Properties and Professional Ethics";
+    
+    document.getElementById("field3").value = "อ.นวลวรรณ สุนทรภิษัช";
+    }
+    function myFunction4(){
+      document.getElementById("field1").value = "01418331 sec1";
+    
+    document.getElementById("field2").value = "Operating Systems";
+    
+    document.getElementById("field3").value = "อ.ศิริกร จันทร์นวล";
+    }
+    function myFunction5(){
+      document.getElementById("field1").value = "01418321 sec1,11";
+    
+    document.getElementById("field2").value = "System Analysis and Design";
+    
+    document.getElementById("field3").value = "อ.สมโชค เรืองอิทธินันท์";
+    }
+    function myFunction6(){
+      document.getElementById("field1").value = "01418471 sec1,11";
+    
+    document.getElementById("field2").value = "Introduction to Software Enginerring";
+    
+    document.getElementById("field3").value = "อ.อุษา สัมมาพันธ์";
+    }
+    function myFunction7(){
+      document.getElementById("field1").value = "01418441 sec1,11";
+    
+    document.getElementById("field2").value = "Business Data Dimension and Report Management";
+    
+    document.getElementById("field3").value = "อ.พบสิทธิ์ กมลเวชช";
+    }
+    
+    </script>
+  
 
 
+    
       
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
